@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{ECAEBFA5-6DC3-429E-91FE-0192B64D1C38}</ProjectGuid>
+    <ProjectGuid>{A07F8739-58C0-47FA-807F-1CEC33E445D0}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Example01</RootNamespace>
-    <AssemblyName>Example01</AssemblyName>
+    <RootNamespace>Example03</RootNamespace>
+    <AssemblyName>Example03</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\StudentManagementLibrary\StudentManagementLibrary\StudentManagementLibrary.csproj">
+      <Project>{e888b6ea-2189-4be7-962c-8d905d266e08}</Project>
+      <Name>StudentManagementLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

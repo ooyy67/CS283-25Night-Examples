@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using StudentManagementLibrary;
 
-namespace example02
+namespace Example02
 {
     internal class Program
     {
@@ -13,11 +13,12 @@ namespace example02
         {
             Student aStudent = new Student()
             {
-                name = "李家宏",
-                phone = "0912345678",
+                name = "張元鴻",
+                phone = "0910123456",
                 address = "台大資工"
             };
-            Console.WriteLine("學生姓名:{0}, 電話:{1}, 住址:{2}"
+            Console.WriteLine(
+                "學生姓名:{0}, 電話:{1}, 住址:{2}"
                 , aStudent.name
                 , aStudent.phone
                 , aStudent.address

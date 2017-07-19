@@ -4,15 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Example01
+namespace Example04
 {
     internal class Program
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
-            Console.Write("請輸入帳號:");
-            Console.WriteLine("我今天心情很{0}{1}", "開心", "才怪");
+            float a = 0.1f;
+            float b = 0.2f;
+            float c = 0.3f;
+            float y = (1.0f / 2.0f) * (a + b);
+            Console.WriteLine(a + b == c);
+            Console.WriteLine(y);
         }
     }
 }

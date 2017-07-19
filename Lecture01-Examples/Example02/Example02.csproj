@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{534E407C-53DA-403C-A1C3-7F339946E08A}</ProjectGuid>
+    <ProjectGuid>{257D55AD-E0FB-4C0E-B9CA-74A5114B9B22}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>example02</RootNamespace>
-    <AssemblyName>example02</AssemblyName>
+    <RootNamespace>Example02</RootNamespace>
+    <AssemblyName>Example02</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -49,8 +49,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\StudentManagementLibrary\StudentManagementLibrary\StudentManagementLibrary\StudentManagementLibrary.csproj">
-      <Project>{961e64f9-2193-46e0-ac02-2cb2e3ac81c6}</Project>
+    <ProjectReference Include="..\..\StudentManagementLibrary\StudentManagementLibrary\StudentManagementLibrary.csproj">
+      <Project>{e888b6ea-2189-4be7-962c-8d905d266e08}</Project>
       <Name>StudentManagementLibrary</Name>
     </ProjectReference>
   </ItemGroup>

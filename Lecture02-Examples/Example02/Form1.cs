@@ -89,5 +89,9 @@ namespace Example02
         private void Form1_Load(object sender, EventArgs e)
         {
         }
+
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+        }
     }
 }

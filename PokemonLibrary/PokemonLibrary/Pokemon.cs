@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using EasyMathLibrary;
 
 namespace PokemonLibrary
 {
     public class Pokemon
     {
+        public int NationalNumber;
         public string Name;
         public int CurrentHp;
         public int Hp;
@@ -17,5 +19,13 @@ namespace PokemonLibrary
         public int PowerUpStardust;
         public int PowerUpCandy;
         public int EvolveCandy;
+
+        public void PowerUp()
+        {
+            EasyRandom random = new EasyRandom();
+            if (NationalNumber == 1)
+            {
+            }
+        }
     }
 }
